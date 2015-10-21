@@ -1,0 +1,7 @@
+.ui.form {
+    padding-top: 15px;
+}
+
+ #nbonus_btn,#ebonus_btn,#nbump_btn,#ebump_btn,#nupgrade_btn,#eupgrade_btn {
+    float: right;
+}

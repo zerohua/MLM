@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>search</title>
+
+    <link rel="stylesheet" type="text/css" href="../dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/framework.css">
+    <link rel="stylesheet" type="text/css" href="../css/org_search.css">
+
+</head>
+<body>
+<div class="page">
+    <header>
+
+    </header>
+    <!-- the main menu-->
+    <div class="ui teal inverted pointing menu ">
+        <div class="bigcontainer">
+            <div class="right menu">
+                <a class="item" href="index.html"><i class="home icon"></i>首頁</a>
+                <a class="item" href="etiquette.html"><i class="road icon"></i>全省禮儀服務</a>
+                <a class="item" href="action.html"><i class="bar icon"></i>活動花絮</a>
+                <a class="item" href="schedule.html"><i class="history icon"></i>各區課程表</a>
+                <a class="item" href="member_info.html"><i class="info circle icon"></i>會員訊息</a>
+                <a class="active item" href="search.html"><i class="search icon"></i>資料查詢</a>
+            </div>
+        </div>
+    </div>
+
+    <!--the main content begin-->
+    <div class="container">
+        <!--the content-->
+        <div class="ui grid">
+            <!--the vertical menu-->
+            <div class="three wide column" id="vMenu">
+                <div class="verticalMenu">
+                    <div class="ui vertical pointing menu fluid">
+                        <a class="teal item" href="member_search.html"><i class="user icon"></i>會員查詢</a>
+                        <a class="active teal item" href="org_search.html"><i class="sitemap icon"></i>組織查詢</a>
+                        <a class="teal item" href="bonus_search.html"><i class="money icon"></i>獎金查詢</a>
+                    </div>
+                </div>
+            </div>
+            <div class="thirteen wide column">
+                <div class="field">
+                    <h3 class="ui header">
+                        <i class="sitemap icon"></i>
+
+                        <div class="content">
+                            組織查詢
+                        </div>
+                    </h3>
+                </div>
+                <div class="ui pointing secondary menu">
+                    <a class="blue active item" data-tab="left_list">左組織列表</a>
+                    <a class="blue item" data-tab="right_list">右組織列表</a>
+                    <a class="blue item" data-tab="binary_tree">樹狀組織圖</a>
+                </div>
+                <div class="ui active tab" data-tab="left_list">
+                    <div class="show left_list">
+                        <table class="ui celled table">
+                            <thead>
+                            <tr>
+                                <th>代數</th>
+                                <th>會員編號</th>
+                                <th>職位</th>
+                                <th>姓名</th>
+                                <th>推薦人</th>
+                                <th>安置上線</th>
+                                <th>左右</th>
+                                <th>會員狀態</th>
+                                <th>對碰</th>
+                                <th>加入日期</th>
+                            </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="ui teal inverted borderless pagination menu" id="left_pagination">
+
+                    </div>
+                </div>
+                <div class="ui tab" data-tab="right_list">
+                    <div class="show left_list">
+                        <table class="ui celled table">
+                            <thead>
+                            <tr>
+                                <th>代數</th>
+                                <th>會員編號</th>
+                                <th>職位</th>
+                                <th>姓名</th>
+                                <th>推薦人</th>
+                                <th>安置上線</th>
+                                <th>左右</th>
+                                <th>會員狀態</th>
+                                <th>對碰</th>
+                                <th>加入日期</th>
+                            </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="ui teal inverted borderless pagination menu" id="right_pagination">
+
+                    </div>
+                </div>
+                <div class="ui tab" data-tab="binary_tree">
+                    <div class="show_binaryTree">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer begin-->
+<footer>
+
+</footer>
+</body>
+<script src="../dist/jquery.js"></script>
+<script src="../dist/semantic.js"></script>
+<script src="../dist/jquery.line.js"></script>
+<script src="../js/main.js"></script>
+<script src="js/org_search.js"></script>
+</html>

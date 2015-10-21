@@ -1,0 +1,11 @@
+.ui.form , .show.manager{
+    padding-top: 15px;
+}
+
+#button {
+    float: right;
+}
+
+.show.manager {
+    padding-top: 55px;
+}

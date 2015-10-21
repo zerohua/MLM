@@ -1,0 +1,22 @@
+.show.member_list {
+    margin-top: 50px;
+}
+
+tr:hover {
+    background: #10a99d;
+}
+
+#change_button, #submit_button, #cancel_button, #search_field {
+    float: right;
+}
+
+#pagination {
+    float: right;
+    margin-top: 15px;
+}
+
+#header_field {
+    float: left;
+}
+
+

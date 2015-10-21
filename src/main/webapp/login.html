@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" type="text/css" href="components/semantic-ui/dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+
+
+</head>
+<body>
+<h2 class="ui center aligned icon header">
+    <i class="circular lock icon"></i>
+    繫情管理系統
+</h2>
+
+<form class="ui form segment">
+    <div class="field">
+        <label>登入帳號</label>
+
+        <div class="ui left icon input">
+            <input placeholder="Username" type="text" name="manager_name" id="manager_name">
+            <i class="user icon"></i>
+        </div>
+    </div>
+    <div class="field">
+        <label>登入密碼</label>
+
+        <div class="ui left icon input">
+            <input type="password" placeholder="password" name="manager_pwd" id="manager_pwd">
+            <i class="key icon"></i>
+        </div>
+    </div>
+    <div class="ui blue submit button" id="submit">Login</div>
+</form>
+<div style="display:none;" class="ui icon error message">
+    <i class="attention circle icon"></i>
+
+    <div class="content">
+        <div class="header">登入發生錯誤</div>
+        <p>請檢查輸入的帳號和密碼</p>
+    </div>
+</div>
+</body>
+<script src="components/requirejs/require.js" data-main="scripts/control/login"></script>
+
+</html>

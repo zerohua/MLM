@@ -1,0 +1,21 @@
+tr:hover {
+    background: #10a99d;
+}
+
+#right_pagination, #left_pagination {
+    float: right;
+    margin-top: 15px;
+}
+
+#list_search_field,#tree_search_field {
+    float: right;
+}
+
+#header_field {
+    float: left;
+}
+
+#tab_menu {
+    margin-top: 40px;
+}
+

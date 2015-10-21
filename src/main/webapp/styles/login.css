@@ -1,0 +1,21 @@
+body {
+    font: 14px 'Helvetica Neue','Microsoft YaHei','Hiragino Sans GB','WenQuanYi Micro Hei',Helvetica,Arial,Sans-serif;
+    line-height: 1.428571429;
+    color: #444;
+    margin:0;
+    padding:0;
+    height:100%;
+
+}
+.ui.form ,.ui.icon.error.message{
+    margin: 0 auto;
+    width: 320px;
+}
+
+.ui.center.aligned.icon.header.header {
+    padding-top: 100px;
+}
+
+/*#submit {*/
+    /*float: right;*/
+/*}*/

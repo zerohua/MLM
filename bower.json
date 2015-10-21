@@ -1,0 +1,29 @@
+{
+  "name": "mlm",
+  "version": "0.0.0",
+  "authors": [
+    "zerox2 <zerozero168@gmail.com>"
+  ],
+  "keywords": [
+    "mlm",
+    "xiching"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "description": "Multi level Marketing",
+  "dependencies": {
+    "semantic-ui": null,
+    "requirejs": null,
+    "jquery-serializeObject": null,
+    "requirejs-domready": null,
+    "jquery.line": "https://github.com/tbem/jquery.line.git",
+    "almond": "https://github.com/jrburke/almond.git#~0.3.1",
+    "jquery-address": "*"
+  }
+}

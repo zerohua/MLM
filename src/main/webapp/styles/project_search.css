@@ -1,0 +1,21 @@
+tr:hover {
+    background: #10a99d;
+}
+
+.show.project_list {
+    margin-top: 50px;
+}
+
+#pagination {
+    float: right;
+    margin-top: 15px;
+
+}
+
+#header_field {
+    float: left;
+}
+
+#search_field {
+    float: right;
+}

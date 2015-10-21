@@ -1,0 +1,24 @@
+tr:hover {
+    background: #10a99d;
+}
+
+.show.bonus_list {
+   margin-top: 50px;
+}
+
+
+
+#pagination {
+   float: right;
+    margin-top: 15px;
+
+}
+
+#search_field {
+    float: right;
+}
+
+#header_field {
+    float: left;
+}
+

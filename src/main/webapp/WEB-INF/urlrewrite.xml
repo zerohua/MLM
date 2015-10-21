@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE urlrewrite
+        PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite decode-using="UTF-8">
+    <rule>
+        <!-- 用户在地址栏输入*.html全部通过forward指令跳转到*.jsp -->
+        <from>/admin/(\w*).html</from>
+        <to type="forward">/admin/$1.jsp</to>
+    </rule>
+    <!--<rule>-->
+    <!--<condition type="session-attribute" name="user" operator="equal" next="and">^$</condition>-->
+    <!--<from>/admin/(\w*).html</from>-->
+    <!--<to type="redirect">/login.html</to>-->
+    <!--</rule>-->
+</urlrewrite>

@@ -1,0 +1,14 @@
+
+.ui.form {
+    padding-top: 15px;
+}
+
+.show.pv, .show.consume, .show.produce, .show.produce_stage, .show.level, .show.cycle ,.show.slide_cycle{
+    padding-top: 55px;
+}
+
+#pvbutton, #csbutton, #pbutton, #sbutton, #lbutton, #cbutton, #sdbutton {
+    float: right;
+}
+
+

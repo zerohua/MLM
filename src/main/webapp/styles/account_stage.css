@@ -1,0 +1,17 @@
+.form {
+    padding-top: 15px;
+}
+
+#button{
+    margin-top: 15px;
+    margin-left: 190px
+}
+
+.show.project {
+    padding-top: 15px;
+}
+
+#update ,#supdate{
+    float: right;
+    margin-top: 15px;
+}

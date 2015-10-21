@@ -1,0 +1,40 @@
+
+.ui.account.grid p {
+    color: #666;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.ui.account.segment {
+    border-left: 3px solid #007ad5;
+
+}
+
+.ui.account.segment {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #FAFAFA;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+span.ui.button {
+    margin-left: 65px;
+    width: 26%
+}
+
+.ui.type.label {
+    background-color: #47a447;
+    border-color: #47a447;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 7px;
+    border-radius: .325em;
+    text-transform: uppercase;
+}
+
+.ui.info.segment {
+    padding-bottom: 8px;
+    margin-left: 20px;
+}

@@ -1,0 +1,97 @@
+html{
+    height:100%;
+    font-size:100%;
+}
+body {
+    font: 14px 'Helvetica Neue','Microsoft YaHei','Hiragino Sans GB','WenQuanYi Micro Hei',Helvetica,Arial,Sans-serif;
+    line-height: 1.428571429;
+    color: #444;
+    margin:0px;
+    padding:0px;
+    height:100%;
+
+}
+
+.page{
+    min-height:100%;
+    width:100%;
+    min-width:1200px;
+    background: #fff;
+    box-shadow: 0px 4px 15px #181818;
+    padding-bottom:16px;
+    padding-bottom:1rem;
+}
+
+/*header*/
+header{
+    position:relative;
+    height:62px;
+}
+#logo{
+    float:left;
+    width:238px;
+    height:72px;
+    background: url(../images/banner.png) left center no-repeat;
+}
+#logo a{
+    display:block;
+    width:238px;
+    height:72px;
+    text-indent: -999em;
+}
+header .user{
+    display:inline;
+    float:right;
+    margin-top:22px;
+}
+footer {
+    width:100%;
+    height:140px;
+    background:transparent;
+    position:absolute;
+    z-index: -20;
+}
+
+
+#copyrights {
+    margin:0 auto;
+    height:140px;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index: -15;
+    background:#323232;
+}
+#copyrights .inset {
+    margin:0 auto;
+    padding: 20px 50px 0;
+    position:relative;
+}
+
+#copyrights .logo {
+    width:86px;
+    height:86px;
+    background:url(../images/logo.png);
+    /*text-indent:-999em;*/
+    float: left;
+}
+
+#copyrights .content {
+    font-size:12px;
+    color:#a0a0a0;
+    line-height:20px;
+    margin-left: 100px;
+
+}
+
+.ui.active.loader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+

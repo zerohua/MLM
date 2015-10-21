@@ -1,0 +1,9 @@
+.form {
+    padding-top: 15px;
+}
+
+#project_no_field,#project_date_field, #pjbutton {
+    float: right;
+}
+
+
